@@ -36,27 +36,31 @@
 		<input type="password" placeholder="New Password"/>
 	</div>
 
-<container
-  form
-	 bel(for="gender-male") Male
-         input(type="radio", name="gender", value="female", id="gender-female")
-           label(for="gender-female") Female/>
-    .row
+<container  
+  < form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+
+    <div row></div>
       <h4 Payment Details></h4>
-      <input-group
-        input(type="radio", name="payment-method", value="card", id="payment-method-card", checked="true")
-        label(for="payment-method-card")
-          span
-            i.fa.fa-cc-visa
-            | Credit Card
-             input(type="radio", name="payment-method", value="paypal", id="payment-method-paypal")
-             label(for="payment-method-paypal") 
-          span
-            i.fa.fa-cc-paypal
-            | Paypal
-          input-group.input-group-icon
-           input(type="text", placeholder="Card Number")
-        input-icon
+      <input-group/>
+        <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
+        <label for="payment-method-card">payment-method-card</label>
+          <span>
+             <input type="radio", name="payment-method", value="paypal", id="payment-method-paypal"/>
+             <label for="payment-method-paypal">payment-method-paypal</label>
+          </span>
+          <span>
+          <input-group input-group-icon/>
+           <input  type="text", placeholder="Card Number"/>
+          </span>
+        <input-icon/>
           i.fa.fa-credit-card
       col-half
         input-group.input-group-icon
@@ -64,19 +68,20 @@
           input-icon
             i.fa.fa-user
       col-half
-        input-group
+        <input-group/>
           select
             option 01 Jan
             option 02 Jan
           select
             option 2015
             option 2016
-    row
-      < h4 Terms and Conditions></h4>
-	  <input-group
-        input(type="checkbox", id="terms")
-        label(for="terms") 
-	< input class="btn" type="button" value="Login" />
+    <div row> 
+      <h4 Terms and Conditions></h4>
+	    <input-group/>
+        <input type="checkbox", id="terms"/>
+        <label for="terms">terms</label> 
+        <input class="btn" type="button" value="Login" />
+         </div> 
 	
 	<div class="bottom-text">
 		<input type="checkbox" name="remember" unchecked="checked" /> Remember me
