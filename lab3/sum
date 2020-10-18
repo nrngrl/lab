@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Login Form Design</title>
+	<link rel="stylesheet" href="css-lab4.html" />
+	<link rel="icon" href="img/ar2.jpg" />
+</head>
+
+<style>
+	div {text-align: center;}
+	</style>
+<body style="background-color:powderblue;"></body>
+<body>
+	<div class="login_box">
+			<h1>Sign up</h1>
+	<div class="textbox">
+		<i class="fa fa-user" aria-hidden="true"></i>
+		<input type="text" placeholder="Username"/>
+	</div>
+
+	<div class="textbox">
+		<i class="fa fa-user" aria-hidden="true"></i>
+		<input type="text" placeholder="Firstname"/>
+	</div>
+	<div class="textbox">
+		<i class="fa fa-user" aria-hidden="true"></i>
+		<input type="text" placeholder="Lastname"/>
+	</div>
+	<div class="textbox">
+		<i class="fa fa-user" aria-hidden="true"></i>
+		<input type="text" placeholder="Mobile number or email"/>
+	</div>
+	<div class="textbox">
+		<i class="fa fa-lock"></i>
+		<input type="password" placeholder="New Password"/>
+	</div>
+
+<container  
+  < form action="/action_page.php">
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female"><br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other"><br><br>
+  <input type="submit" value="Submit">
+  </form>
+
+    <div row></div>
+      <h4 Payment Details></h4>
+      <input-group/>
+        <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
+        <label for="payment-method-card">payment-method-card</label>
+          <span>
+             <input type="radio", name="payment-method", value="paypal", id="payment-method-paypal"/>
+             <label for="payment-method-paypal">payment-method-paypal</label>
+          </span>
+          <span>
+          <input-group input-group-icon/>
+           <input  type="text", placeholder="Card Number"/>
+          </span>
+        <input-icon/>
+  
+        <form action=>
+          <label for="cars">gender:</label>
+          <select name="gender" id="gender">
+            <option value="man">man</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+          </select>
+          <br><br>
+        </form>
+        
+         
+<form action>
+  <label for="cars">Good Thru:</label>
+  <select>
+    <option value="volvo">01 Jan</option>
+    <option value="saab">01 Feb</option>
+    <option value="opel">01 Mar</option>
+    <option value="audi">01 Apr</option>
+    <option value="volvo">01 May</option>
+    <option value="saab">01 Jun</option>
+    <option value="opel">01 Jul</option>
+    <option value="audi">01 Aus</option>
+     <option value="volvo">01 Sep</option>
+    <option value="saab">01 Oct</option>
+    <option value="opel">01 Nov</option>
+    <option value="audi">01 Dec</option>
+  </select>
+</form>
+    <div row> 
+      <h4 Terms and Conditions></h4>
+	    <input-group/>
+        <input type="checkbox", id="terms"/>
+        <label for="terms">terms</label> 
+        <input class="btn" type="button" value="Login" />
+         </div> 
+	
+	<div class="bottom-text">
+		<input type="checkbox" name="remember" unchecked="checked" /> Remember me
+		<a href="#">Forgot Password?</a>
+	</div>
+
+	
+	</div>
+</body>
+</html>
