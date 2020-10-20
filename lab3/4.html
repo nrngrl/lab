@@ -44,7 +44,6 @@
   <input type="radio" name="gender" id="female" value="female"><br>
   <label for="other">Other</label>
   <input type="radio" name="gender" id="other" value="other"><br><br>
-  <input type="submit" value="Submit">
   </form>
 
     <div row></div>
@@ -61,20 +60,24 @@
            <input  type="text", placeholder="Card Number"/>
           </span>
         <input-icon/>
-          i.fa.fa-credit-card
-      col-half
-        input-group.input-group-icon
-          input(type="text", placeholder="Card CVC")
-          input-icon
-            i.fa.fa-user
-      col-half
-        <input-group/>
-          select
-            option 01 Jan
-            option 02 Jan
-          select
-            option 2015
-            option 2016
+         
+<form action>
+  <label for="cars">Good Thru:</label>
+  <select>
+    <option value="volvo">01 Jan</option>
+    <option value="saab">01 Feb</option>
+    <option value="opel">01 Mar</option>
+    <option value="audi">01 Apr</option>
+    <option value="volvo">01 May</option>
+    <option value="saab">01 Jun</option>
+    <option value="opel">01 Jul</option>
+    <option value="audi">01 Aus</option>
+    <option value="volvo">01 Sep</option>
+    <option value="saab">01 Oct</option>
+    <option value="opel">01 Nov</option>
+    <option value="audi">01 Dec</option>
+  </select>
+</form>
     <div row> 
       <h4 Terms and Conditions></h4>
 	    <input-group/>
@@ -87,8 +90,6 @@
 		<input type="checkbox" name="remember" unchecked="checked" /> Remember me
 		<a href="#">Forgot Password?</a>
 	</div>
-
-	
 	</div>
 </body>
 </html>
