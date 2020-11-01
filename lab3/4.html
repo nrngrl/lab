@@ -2,46 +2,67 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Sign up for Paypal </title>
-	<link rel="stylesheet" href="2.css" />
-</head>
+	<title>Login Form Design</title>
+	<link rel="stylesheet" href="css-lab4.html" />
 <style>
-body {
+
+	
+	.textbox{
+		float: left
+		text-align:left;
+	}
+	#Username{
+		float: left;
+  width: 50%;
+	}
+	#Firstname{
+		float: right;
+  width: 50%;
+	}
+	#Lastname{
+		float: right;
+  width: 50%;
+  padding-left:auto;
+	}
+	body{
+		font-family: Arial, Helvetica,sans-serif;
+	}
+	*{box-sizing: border-box;}
+  body{
   background-image: url('git.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
 }
-</style>
-<style>
-	div {text-align: center;}
 	</style>
-<body>
+</head>
+  
+<body >
 	<div class="login_box">
 			<h1>Sign up</h1>
-	<div class="textbox">
+	<div class="textbox" id="Username">
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input type="text" placeholder="Username"/>
+		<input size="50%" type="text" maxlength="99"  placeholder="Username"/>
 	</div>
 
-	<div class="textbox">
+	<div class="textbox" id="Firstname">
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input type="text" placeholder="Firstname"/>
+		<input size="50%" type="text" placeholder="Firstname"/>
 	</div>
-	<div class="textbox">
+	<div class="textbox" id="Lastname">
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input type="text" placeholder="Lastname"/>
+		<input size="50%" type="text" placeholder="Lastname"/>
 	</div>
-	<div class="textbox">
+	<div class="textbox" id="Mobile"> 
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input type="text" placeholder="Mobile number or email"/>
+		<input size="50%" type="text" placeholder="Mobile number or email"/>
 	</div>
-	<div class="textbox">
+	<div class="textbox" id="password">
 		<i class="fa fa-lock"></i>
-		<input type="password" placeholder="New Password"/>
+		<input size="50%" type="password" placeholder="New Password"/>
 	</div>
 
-<container  
+<container 
   < form action="/action_page.php">
   <label for="male">Male</label>
   <input type="radio" name="gender" id="male" value="male"><br>
@@ -52,12 +73,12 @@ body {
   <input type="submit" value="Submit">
   </form>
 
-    <div row></div>
+    <div row>
       <h4 Payment Details></h4>
       <input-group/>
         <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
         <label for="payment-method-card">payment-method-card</label>
-          <p><span>
+          <span>
              <input type="radio", name="payment-method", value="paypal", id="payment-method-paypal"/>
              <label for="payment-method-paypal">payment-method-paypal</label>
           </span>
