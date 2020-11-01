@@ -2,10 +2,13 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Login Form Design</title>
-	<link rel="stylesheet" href="css-lab4.html" />
+	<title>Sign up for PayPal </title>
+  <link rel="stylesheet" href="4.css" />
 <style>
-
+  .label{
+    float:left
+    select:left;
+  }
 	
 	.textbox{
 		float: left
@@ -13,17 +16,20 @@
 	}
 	#Username{
 		float: left;
-  width: 50%;
+  width: 100%;
 	}
 	#Firstname{
 		float: right;
-  width: 50%;
+  width: 100%;
 	}
 	#Lastname{
 		float: right;
-  width: 50%;
-  padding-left:auto;
+  width: 100%;
 	}
+  #Password{
+		float: right;
+  width: 100%;
+  }
 	body{
 		font-family: Arial, Helvetica,sans-serif;
 	}
@@ -34,32 +40,37 @@
   background-attachment: fixed;  
   background-size: cover;
 }
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
 	</style>
 </head>
   
 <body >
 	<div class="login_box">
-			<h1>Sign up</h1>
+      <h1>Sign up</h1>
+      <br>
+      <br>
 	<div class="textbox" id="Username">
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input size="50%" type="text" maxlength="99"  placeholder="Username"/>
+		<input size="25%" type="text" maxlength="99"  placeholder="Username"/><br><br>
 	</div>
 
 	<div class="textbox" id="Firstname">
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input size="50%" type="text" placeholder="Firstname"/>
+		<input size="25%" type="text" placeholder="Firstname"/><br><br>
 	</div>
 	<div class="textbox" id="Lastname">
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input size="50%" type="text" placeholder="Lastname"/>
+		<input size="25%" type="text" placeholder="Lastname"/><br><br>
 	</div>
 	<div class="textbox" id="Mobile"> 
 		<i class="fa fa-user" aria-hidden="true"></i>
-		<input size="50%" type="text" placeholder="Mobile number or email"/>
+		<input size="25%" type="text" placeholder="Mobile number or email"/><br><br>
 	</div>
 	<div class="textbox" id="password">
 		<i class="fa fa-lock"></i>
-		<input size="50%" type="password" placeholder="New Password"/>
+		<input size="25%" type="password" placeholder="Password"/><br><br>
 	</div>
 
 <container 
@@ -69,24 +80,25 @@
   <label for="female">Female</label>
   <input type="radio" name="gender" id="female" value="female"><br>
   <label for="other">Other</label>
-  <input type="radio" name="gender" id="other" value="other"><br><br>
-  <input type="submit" value="Submit">
+  <input type="radio" name="gender" id="other" value="other"><br>
   </form>
 
     <div row>
       <h4 Payment Details></h4>
       <input-group/>
         <input type="radio" name="payment-method" value="card" id="payment-method-card" checked="true"/>
-        <label for="payment-method-card">payment-method-card</label>
+        <label for="payment-method-card">payment-method-card</label><br>
           <span>
              <input type="radio", name="payment-method", value="paypal", id="payment-method-paypal"/>
              <label for="payment-method-paypal">payment-method-paypal</label>
-          </span>
+          </span><br>
           <span>
           <input-group input-group-icon/>
            <input  type="text", placeholder="Card Number"/>
           </span>
         <input-icon/>
+        
+        <br><br>
          
 <form action>
   <label for="cars">Day:</label>
@@ -141,11 +153,7 @@
   </select>
 </form>
     <div row> 
-      <h4 Terms and Conditions></h4>
-	    <input-group/>
-        <input type="checkbox", id="terms"/>
-        <label for="terms">terms</label> 
-        <input class="btn" type="button" value="Login" />
+        <input class="btn" type="button" value="Sign Up" />
          </div> 
 	
 	<div class="bottom-text">
