@@ -1,7 +1,28 @@
-
-.myinput {
-width: 200px;
-  background-color: red;
-  color: white;
-  border-radius: 10px;
-}
+.username{
+  width: 200px;
+    background-color: rgba(0, 255, 234, 0.849);
+    color: white;
+    border-radius: 10px;
+  }
+  .firstname{
+    width: 200px;
+    background-color: rgba(0, 255, 234, 0.849);
+    color: white;
+    border-radius: 10px;
+  }
+  .lastname{width: 200px;
+    background-color: rgba(0, 255, 234, 0.849);
+    color: white;
+    border-radius: 10px;
+  }
+  .mobile{width: 200px;
+    background-color: rgba(0, 255, 234, 0.849);
+    color: white;
+    border-radius: 10px;
+  }
+  .pass{
+    width: 200px;
+    background-color: rgba(0, 255, 234, 0.849);
+    color: white;
+    border-radius: 10px;
+  }
