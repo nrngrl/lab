@@ -1,56 +1,66 @@
 .username{
-  width: 50%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  max-width: 380px;
+  width: 100%;
+  height: 55px;
+  background color: #f0f0f0;
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0.4rem;
   }
   .firstname{
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  max-width: 380px;
+  width: 100%;
+  height: 55px;
+  background color: #f0f0f0;
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0.4rem;
   }
   .lastname{
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+   max-width: 380px;
+   width: 100%;
+   height: 55px;
+   background color: #f0f0f0;
+   margin: 10px 0;
+   border-radius: 55px;
+   display: grid;
+   grid-template-columns: 15% 85%;
+   padding: 0.4rem;
   }
   .mobile{
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+   max-width: 380px;
+   width: 100%;
+   height: 55px;
+   background color: #f0f0f0;
+   margin: 10px 0;
+   border-radius: 55px;
+   display: grid;
+   grid-template-columns: 15% 85%;
+   padding: 0.4rem;
   }
   .pass{
   max-width: 380px;
-   width: 100%;
-   height: 55px;
-    background color: #f0f0f0;
-    margin: 10px 0;
-    border-radius: 55px;
-    display: grid;
-    grid-template-columns: 15% 85%;
-    padding: 0.4rem;
+  width: 100%;
+  height: 55px;
+  background color: #f0f0f0;
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0.4rem;
 }
  .up{
-  width: 25%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+   max-width: 380px;
+  width: 100%;
+  height: 55px;
+  background color: #f0f0f0;
+  margin: 10px 0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0.4rem;
   }
